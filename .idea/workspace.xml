@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e311b57-f756-4ef1-b8c9-6f1e366ff2d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CompanyHereI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CompanyHereImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CompanyRemoteI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CompanyRemoteImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CustomerInfoClassAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/CustomerInfoObjectAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/adapter/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/BWMCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/CarA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/CarCompanyA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/CopyCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/NationalCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/NativeCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/bright/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/BWMCarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/BenzCarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/CarTemplateI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/builder/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/CommandA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/DesignCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/DesignGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/GroupI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/Invoker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/WorkCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/command/WorkGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compositiontransparent/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compositiontransparent/Composite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compositiontransparent/Leaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compositiontransparent/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compostitionsafe/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compostitionsafe/Composite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compostitionsafe/Leaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/composite/compostitionsafe/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/decorator/BWMCarModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/decorator/BWMDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/decorator/CarModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/decorator/ModelDecoorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/decorator/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/facade/CheckCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/facade/MakeCarI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/facade/MakeCarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/facade/MakeMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/facade/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/AbstractFactoryImplA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/AbstractFactoryImplB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/BWMCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/BenzCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/Female.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/Male.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/abstractfactory/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/methodfactory/CarCompanyI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/methodfactory/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/methodfactory/CompanyA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/methodfactory/CompanyB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/methodfactory/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/simplefactory/BWMCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/simplefactory/BenzCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/simplefactory/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/simplefactory/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/factory/simplefactory/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/filter/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/filter/CarFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/filter/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/flyweight/BWMCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/flyweight/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/flyweight/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/interpretor/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/interpretor/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/interpretor/NonTerminalExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/interpretor/TerminalExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/interpretor/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/iterator/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/iterator/CarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/iterator/CarIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/iterator/Iterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/iterator/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/CarCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/CustomerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/CustomerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/Mediator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/mediation/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/memento/CarRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/memento/MemList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/memento/MemRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/memento/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/multiton/BranchCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/multiton/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/nullobject/AbstractCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/nullobject/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/nullobject/NullCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/nullobject/RealCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/nullobject/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/observer/Beltline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/observer/CheckCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/observer/RecordCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/observer/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/prototype/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/prototype/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/prototype/ModelS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/prototype/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/proxy/CompanyA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/proxy/CompanyB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/proxy/CompanyDad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/proxy/CompanyWorkI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/proxy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/responsibilitychain/Leader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/responsibilitychain/Master.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/responsibilitychain/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/responsibilitychain/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/responsibilitychain/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/singleton/MainCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/singleton/MainCompany2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/singleton/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/ActionManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/RunAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/StartAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/StopAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/state/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/BuyMetalImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/CreateCarI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/DesignCarModelImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/MakeCarImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/StartWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/strategy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/template/BWMCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/template/CarTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/template/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/BWMFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/BenzFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/CarFacoriresI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pattern/visitor/VisitorI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CompanyHereI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CompanyHereImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CompanyRemoteI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CompanyRemoteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CustomerInfoClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/CustomerInfoObjectAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/BWMCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/CarA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/CarCompanyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/CopyCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/NationalCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/NativeCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bright/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/BWMCarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/BenzCarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/CarTemplateI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CommandA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/DesignCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/DesignGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/GroupI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/WorkCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/WorkGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compositiontransparent/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compositiontransparent/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compositiontransparent/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compositiontransparent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compostitionsafe/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compostitionsafe/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compostitionsafe/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/compostitionsafe/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/BWMCarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/BWMDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/CarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/ModelDecoorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/CheckCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/MakeCarI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/MakeCarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/MakeMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/AbstractFactoryImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/AbstractFactoryImplB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/BWMCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/BenzCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/Female.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/Male.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/methodfactory/CarCompanyI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/methodfactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/methodfactory/CompanyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/methodfactory/CompanyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/methodfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/simplefactory/BWMCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/simplefactory/BenzCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/simplefactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/simplefactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/simplefactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CarFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyweight/BWMCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyweight/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyweight/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpretor/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpretor/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpretor/NonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpretor/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpretor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/CarIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/CarCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/CustomerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/CustomerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/CarRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/MemList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/MemRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiton/BranchCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullobject/AbstractCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullobject/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullobject/NullCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullobject/RealCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullobject/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Beltline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/CheckCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/RecordCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/ModelS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/CompanyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/CompanyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/CompanyDad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/CompanyWorkI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/responsibilitychain/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/responsibilitychain/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/responsibilitychain/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/responsibilitychain/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/responsibilitychain/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/MainCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/MainCompany2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/ActionManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/RunAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/StartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/StopAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/BuyMetalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/CreateCarI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/DesignCarModelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/MakeCarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/StartWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/BWMCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/CarTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/BWMFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/BenzFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/CarFacoriresI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/VisitorI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2018340440">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.47" value="3" />
+          <entry key="project.open.time.55" value="2" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AbstractFactory" value="2" />
+          <entry key="Action" value="1" />
+          <entry key="BWMCar" value="1" />
+          <entry key="BenzCar" value="1" />
+          <entry key="BenzCarImpl" value="2" />
+          <entry key="BranchCompany" value="1" />
+          <entry key="BuyMetalImpl" value="1" />
+          <entry key="CompanyA" value="1" />
+          <entry key="CompanyHereI" value="1" />
+          <entry key="Test" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="203" />
+          <entry key="kt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="203" />
+          <entry key="Kotlin" value="1" />
+          <entry key="UML" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="22" />
+          <entry key="ft" value="1" />
+          <entry key="java" value="16467" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="16467" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="VTL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nullobject/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nullobject/AbstractCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nullobject/RealCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="16" column="33" lean-forward="true" selection-end-line="22" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nullobject/CarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="23" column="46" lean-forward="true" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nullobject/NullCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-end-line="18" />
+              <folding>
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iterator</find>
+      <find>price</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>color</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\GITRepository\LiuLipu\Pattern\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/responsibilitychain/Position.java" />
+        <option value="$PROJECT_DIR$/src/responsibilitychain/Test.java" />
+        <option value="$PROJECT_DIR$/src/visitor/CarFacorires.java" />
+        <option value="$PROJECT_DIR$/src/visitor/VisitorI.java" />
+        <option value="$PROJECT_DIR$/src/visitor/Test.java" />
+        <option value="$PROJECT_DIR$/src/visitor/BWMFactory.java" />
+        <option value="$PROJECT_DIR$/src/visitor/CarFacoriresI.java" />
+        <option value="$PROJECT_DIR$/src/visitor/BenzFactory.java" />
+        <option value="$PROJECT_DIR$/src/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/state/Context.java" />
+        <option value="$PROJECT_DIR$/src/state/Action.java" />
+        <option value="$PROJECT_DIR$/src/state/StartAction.java" />
+        <option value="$PROJECT_DIR$/src/state/StopAction.java" />
+        <option value="$PROJECT_DIR$/src/state/RunAction.java" />
+        <option value="$PROJECT_DIR$/src/state/ActionMange.java" />
+        <option value="$PROJECT_DIR$/src/state/ActionManage.java" />
+        <option value="$PROJECT_DIR$/src/state/Test.java" />
+        <option value="$PROJECT_DIR$/src/prototype/Man.java" />
+        <option value="$PROJECT_DIR$/src/prototype/Model.java" />
+        <option value="$PROJECT_DIR$/src/prototype/B.java" />
+        <option value="$PROJECT_DIR$/src/prototype/ModelS.java" />
+        <option value="$PROJECT_DIR$/src/prototype/A.java" />
+        <option value="$PROJECT_DIR$/src/prototype/Test.java" />
+        <option value="$PROJECT_DIR$/src/mediation/Action.java" />
+        <option value="$PROJECT_DIR$/src/mediation/CustomerB.java" />
+        <option value="$PROJECT_DIR$/src/mediation/CustomerA.java" />
+        <option value="$PROJECT_DIR$/src/mediation/CarCompany.java" />
+        <option value="$PROJECT_DIR$/src/mediation/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/mediation/Test.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/Gate.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/Expression.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/GroupWords.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/Context.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/Test.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/TerminalExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpretor/NonTerminalExpression.java" />
+        <option value="$PROJECT_DIR$/src/flyweight/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/flyweight/BWMCar.java" />
+        <option value="$PROJECT_DIR$/src/flyweight/Test.java" />
+        <option value="$PROJECT_DIR$/src/memento/MemRecord.java" />
+        <option value="$PROJECT_DIR$/src/memento/MemList.java" />
+        <option value="$PROJECT_DIR$/src/memento/CarRecord.java" />
+        <option value="$PROJECT_DIR$/src/memento/Test.java" />
+        <option value="$PROJECT_DIR$/src/filter/Car.java" />
+        <option value="$PROJECT_DIR$/src/filter/CarFilter.java" />
+        <option value="$PROJECT_DIR$/src/filter/Test.java" />
+        <option value="$PROJECT_DIR$/src/nullobject/NullCar.java" />
+        <option value="$PROJECT_DIR$/src/nullobject/AbstractCar.java" />
+        <option value="$PROJECT_DIR$/src/nullobject/RealCar.java" />
+        <option value="$PROJECT_DIR$/src/nullobject/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/nullobject/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="57" />
+    <option name="width" value="559" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nullobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544876115801" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="D:/IDEA/workspace/BookSystem" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GITRepository\LiuLipu\Pattern\src" />
+      <recent name="D:\GITRepository\LiuLipu\Pattern\src\composite" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nullobject" />
+      <recent name="memento" />
+      <recent name="mediation" />
+      <recent name="prototype" />
+      <recent name="state" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GITRepository\LiuLipu\Pattern\src\bright" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test (4)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flyweight.Test" />
+      <module name="Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.Test" />
+      <module name="Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filter.Test" />
+      <module name="Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nullobject.Test" />
+      <module name="Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nullobject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interpretor.Test" />
+      <module name="Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interpretor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e311b57-f756-4ef1-b8c9-6f1e366ff2d6" name="Default Changelist" comment="" />
+      <created>1543236368071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543236368071</updated>
+      <workItem from="1543236375242" duration="3515000" />
+      <workItem from="1543320706761" duration="6673000" />
+      <workItem from="1543404999928" duration="4101000" />
+      <workItem from="1543494352932" duration="3730000" />
+      <workItem from="1543532803500" duration="563000" />
+      <workItem from="1543583016198" duration="6275000" />
+      <workItem from="1543635496417" duration="1360000" />
+      <workItem from="1543748306184" duration="5197000" />
+      <workItem from="1543840323292" duration="4299000" />
+      <workItem from="1543929208374" duration="2987000" />
+      <workItem from="1544012851960" duration="4442000" />
+      <workItem from="1544052174605" duration="2028000" />
+      <workItem from="1544103229941" duration="2707000" />
+      <workItem from="1544256168543" duration="634000" />
+      <workItem from="1544269296011" duration="3149000" />
+      <workItem from="1544355210953" duration="6503000" />
+      <workItem from="1544446697045" duration="5165000" />
+      <workItem from="1544532311615" duration="5043000" />
+      <workItem from="1544617559148" duration="6018000" />
+      <workItem from="1544657575089" duration="2759000" />
+      <workItem from="1544704789990" duration="6192000" />
+      <workItem from="1544789791770" duration="31822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115162000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="56" y="-8" width="1318" height="784" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36479592" visible="true" weight="0.15714286" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32924962" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32771823" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920633" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50079364" side_tool="true" weight="0.3078101" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771823" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49920633" visible="true" weight="0.4027565" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.29402757" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" x="117" y="297" width="257" height="248" id="Structure" order="9" sideWeight="0.6352041" side_tool="true" weight="0.20396826" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36479592" visible="true" weight="0.15714286" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32924962" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32771823" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920633" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50079364" side_tool="true" visible="true" weight="0.3078101" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771823" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49920633" visible="true" weight="0.3078101" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.29402757" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" x="117" y="297" width="257" height="248" id="Structure" order="9" sideWeight="0.6352041" side_tool="true" weight="0.20396826" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterator/CarIterator.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterator/CarIterator.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/composite/compostitionsafe/Composite.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files (x86)/jdk1.8.0_31/src.zip!/java/util/Observable.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/responsibilitychain/Master.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prototype/Model.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/memento/CarRecord.java</url>
+          <line>13</line>
+          <properties class="memento.CarRecord" method="getName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="iterator" language="JAVA" />
+        <watch expression="((CarIterator)iterator).list" custom="iterator.CarIterator" />
+        <watch expression="MemList" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>MemList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>boolean  a = cnt&lt;list.size()?true:false;
+System.out.println(a);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(cnt&lt;list.size()?true:false);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cnt&lt;list.size()?true:false;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(iterator.hasNext());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>MemList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>iterator</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/responsibilitychain/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/BenzFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/CarFacoriresI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/VisitorI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/Action.kt" />
+    <entry file="uml://JAVA/state.Action">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>state.Action</OriginalElement>
+          <nodes>
+            <node x="393.8288690476191" y="520.0">state.Test</node>
+            <node x="211.0" y="386.0">state.StartAction</node>
+            <node x="428.0" y="386.0">state.StopAction</node>
+            <node x="0.0" y="386.0">state.RunAction</node>
+            <node x="332.3125" y="0.0">state.Context</node>
+            <node x="257.91815476190476" y="154.0">state.Action</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="state.Test" target="state.RunAction">
+              <point x="-74.16666666666674" y="-25.5" />
+              <point x="408.66220238095235" y="500.0" />
+              <point x="95.5" y="500.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="state.Test" target="state.StartAction">
+              <point x="-44.5" y="-25.5" />
+              <point x="438.3288690476191" y="490.0" />
+              <point x="309.0" y="490.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="state.StartAction" target="state.Context">
+              <point x="-65.33333333333331" y="-37.0" />
+              <point x="243.66666666666669" y="336.0" />
+              <point x="227.41815476190476" y="336.0" />
+              <point x="227.41815476190476" y="124.0" />
+              <point x="383.5625" y="124.0" />
+              <point x="-30.75" y="37.0" />
+            </edge>
+            <edge source="state.Action" target="state.Action">
+              <point x="-93.625" y="71.0" />
+              <point x="271.29315476190476" y="316.0" />
+              <point x="237.91815476190476" y="316.0" />
+              <point x="237.91815476190476" y="225.0" />
+              <point x="-107.0" y="-0.0" />
+            </edge>
+            <edge source="state.StartAction" target="state.Action">
+              <point x="65.33333333333331" y="-37.0" />
+              <point x="374.3333333333333" y="366.0" />
+              <point x="378.29315476190476" y="366.0" />
+              <point x="13.375" y="71.0" />
+            </edge>
+            <edge source="state.RunAction" target="state.Context">
+              <point x="-63.666666666666686" y="-37.0" />
+              <point x="31.833333333333314" y="366.0" />
+              <point x="65.68154761904765" y="366.0" />
+              <point x="65.68154761904765" y="114.0" />
+              <point x="363.0625" y="114.0" />
+              <point x="-51.25" y="37.0" />
+            </edge>
+            <edge source="state.Test" target="state.Context">
+              <point x="44.50000000000001" y="-25.5" />
+              <point x="527.328869047619" y="490.0" />
+              <point x="631.5" y="490.0" />
+              <point x="631.5" y="124.0" />
+              <point x="465.5625" y="124.0" />
+              <point x="51.25" y="37.0" />
+            </edge>
+            <edge source="state.Test" target="state.StopAction">
+              <point x="14.833333333333314" y="-25.5" />
+              <point x="497.6622023809524" y="480.0" />
+              <point x="524.5" y="480.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="state.Test" target="state.Action">
+              <point x="-14.833333333333371" y="-25.5" />
+              <point x="467.9955357142857" y="480.0" />
+              <point x="417.5" y="480.0" />
+              <point x="417.5" y="366.0" />
+              <point x="405.04315476190476" y="366.0" />
+              <point x="40.125" y="71.0" />
+            </edge>
+            <edge source="state.Context" target="state.Context">
+              <point x="-71.75" y="37.0" />
+              <point x="342.5625" y="94.0" />
+              <point x="312.3125" y="94.0" />
+              <point x="312.3125" y="37.0" />
+              <point x="-82.0" y="-0.0" />
+            </edge>
+            <edge source="state.RunAction" target="state.Action">
+              <point x="63.666666666666686" y="-37.0" />
+              <point x="159.16666666666669" y="356.0" />
+              <point x="324.79315476190476" y="356.0" />
+              <point x="-40.125" y="71.0" />
+            </edge>
+            <edge source="state.StopAction" target="state.Context">
+              <point x="64.33333333333336" y="-37.0" />
+              <point x="588.8333333333334" y="366.0" />
+              <point x="573.6681547619048" y="366.0" />
+              <point x="573.6681547619048" y="134.0" />
+              <point x="445.0625" y="134.0" />
+              <point x="30.75" y="37.0" />
+            </edge>
+            <edge source="state.StopAction" target="state.Action">
+              <point x="0.0" y="-37.0" />
+              <point x="524.5" y="356.0" />
+              <point x="458.54315476190476" y="356.0" />
+              <point x="93.625" y="71.0" />
+            </edge>
+            <edge source="state.Action" target="state.Context">
+              <point x="53.5" y="-71.0" />
+              <point x="418.41815476190476" y="134.0" />
+              <point x="424.5625" y="134.0" />
+              <point x="10.25" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Tree" zoom="0.9810126582278481" x="199.0" y="225.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/BWMFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/StartAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/RunAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/StopAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/ActionManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/ModelS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/CustomerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-end-line="17" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/CustomerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/CarCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mediation/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/jdk1.8.0_31/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="535" selection-start-line="535" selection-end-line="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/GroupWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="9" lean-forward="true" selection-end-line="36" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/NonTerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="46" lean-forward="true" selection-end-line="29" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/TerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="40" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpretor/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyweight/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyweight/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="20" column="19" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyweight/BWMCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/CarRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/MemRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/MemList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" lean-forward="true" selection-end-line="23" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/CarFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="13" lean-forward="true" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullobject/AbstractCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullobject/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="46" lean-forward="true" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullobject/NullCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-end-line="18" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullobject/RealCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="33" lean-forward="true" selection-end-line="22" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullobject/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Pattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
